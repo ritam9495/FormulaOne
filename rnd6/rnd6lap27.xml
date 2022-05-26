@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/6/laps/27" limit="30" offset="0" total="20">
+	<RaceTable season="2022" round="6" lap="27">
+		<Race season="2022" round="6" url="http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix">
+			<RaceName>Spanish Grand Prix</RaceName>
+			<Circuit circuitId="catalunya" url="http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya">
+				<CircuitName>Circuit de Barcelona-Catalunya</CircuitName>
+				<Location lat="41.57" long="2.26111">
+					<Locality>Montmeló</Locality>
+					<Country>Spain</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-05-22</Date>
+			<Time>13:00:00Z</Time>
+			<LapsList>
+				<Lap number="27">
+					<Timing driverId="russell" lap="27" position="1" time="1:28.513"/>
+					<Timing driverId="max_verstappen" lap="27" position="2" time="1:28.533"/>
+					<Timing driverId="perez" lap="27" position="3" time="1:28.642"/>
+					<Timing driverId="leclerc" lap="27" position="4" time="1:49.080"/>
+					<Timing driverId="bottas" lap="27" position="5" time="1:28.508"/>
+					<Timing driverId="sainz" lap="27" position="6" time="1:28.548"/>
+					<Timing driverId="ocon" lap="27" position="7" time="1:29.504"/>
+					<Timing driverId="norris" lap="27" position="8" time="1:29.201"/>
+					<Timing driverId="tsunoda" lap="27" position="9" time="1:29.746"/>
+					<Timing driverId="alonso" lap="27" position="10" time="1:29.815"/>
+					<Timing driverId="mick_schumacher" lap="27" position="11" time="1:30.170"/>
+					<Timing driverId="ricciardo" lap="27" position="12" time="1:30.188"/>
+					<Timing driverId="zhou" lap="27" position="13" time="1:29.942"/>
+					<Timing driverId="gasly" lap="27" position="14" time="1:31.820"/>
+					<Timing driverId="vettel" lap="27" position="15" time="1:30.684"/>
+					<Timing driverId="hamilton" lap="27" position="16" time="1:27.244"/>
+					<Timing driverId="stroll" lap="27" position="17" time="1:45.403"/>
+					<Timing driverId="kevin_magnussen" lap="27" position="18" time="1:31.143"/>
+					<Timing driverId="latifi" lap="27" position="19" time="1:48.120"/>
+					<Timing driverId="albon" lap="27" position="20" time="1:29.460"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

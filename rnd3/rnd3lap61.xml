@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/3/laps/61" limit="30" offset="0" total="0">
+	<RaceTable season="2022" round="3" lap="61">
+	</RaceTable>
+</MRData>

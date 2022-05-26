@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/1/laps/30" limit="30" offset="0" total="20">
+	<RaceTable season="2022" round="1" lap="30">
+		<Race season="2022" round="1" url="http://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix">
+			<RaceName>Bahrain Grand Prix</RaceName>
+			<Circuit circuitId="bahrain" url="http://en.wikipedia.org/wiki/Bahrain_International_Circuit">
+				<CircuitName>Bahrain International Circuit</CircuitName>
+				<Location lat="26.0325" long="50.5106">
+					<Locality>Sakhir</Locality>
+					<Country>Bahrain</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-03-20</Date>
+			<Time>15:00:00Z</Time>
+			<LapsList>
+				<Lap number="30">
+					<Timing driverId="leclerc" lap="30" position="1" time="1:39.354"/>
+					<Timing driverId="max_verstappen" lap="30" position="2" time="1:41.537"/>
+					<Timing driverId="sainz" lap="30" position="3" time="1:39.004"/>
+					<Timing driverId="perez" lap="30" position="4" time="1:38.879"/>
+					<Timing driverId="russell" lap="30" position="5" time="1:39.454"/>
+					<Timing driverId="kevin_magnussen" lap="30" position="6" time="1:40.174"/>
+					<Timing driverId="gasly" lap="30" position="7" time="1:39.800"/>
+					<Timing driverId="hamilton" lap="30" position="8" time="1:37.506"/>
+					<Timing driverId="ocon" lap="30" position="9" time="1:42.618"/>
+					<Timing driverId="bottas" lap="30" position="10" time="1:39.268"/>
+					<Timing driverId="zhou" lap="30" position="11" time="1:39.836"/>
+					<Timing driverId="alonso" lap="30" position="12" time="1:38.626"/>
+					<Timing driverId="mick_schumacher" lap="30" position="13" time="1:41.606"/>
+					<Timing driverId="tsunoda" lap="30" position="14" time="1:59.210"/>
+					<Timing driverId="stroll" lap="30" position="15" time="1:40.850"/>
+					<Timing driverId="albon" lap="30" position="16" time="1:41.020"/>
+					<Timing driverId="ricciardo" lap="30" position="17" time="1:40.647"/>
+					<Timing driverId="latifi" lap="30" position="18" time="1:42.106"/>
+					<Timing driverId="hulkenberg" lap="30" position="19" time="1:40.483"/>
+					<Timing driverId="norris" lap="30" position="20" time="1:39.184"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

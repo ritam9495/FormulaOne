@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/5/laps/45" limit="30" offset="0" total="18">
+	<RaceTable season="2022" round="5" lap="45">
+		<Race season="2022" round="5" url="http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix">
+			<RaceName>Miami Grand Prix</RaceName>
+			<Circuit circuitId="miami" url="http://en.wikipedia.org/wiki/Miami_International_Autodrome">
+				<CircuitName>Miami International Autodrome</CircuitName>
+				<Location lat="25.9581" long="-80.2389">
+					<Locality>Miami</Locality>
+					<Country>USA</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-05-08</Date>
+			<Time>19:30:00Z</Time>
+			<LapsList>
+				<Lap number="45">
+					<Timing driverId="max_verstappen" lap="45" position="1" time="2:22.077"/>
+					<Timing driverId="leclerc" lap="45" position="2" time="2:20.865"/>
+					<Timing driverId="sainz" lap="45" position="3" time="2:19.559"/>
+					<Timing driverId="perez" lap="45" position="4" time="2:15.947"/>
+					<Timing driverId="bottas" lap="45" position="5" time="2:15.800"/>
+					<Timing driverId="hamilton" lap="45" position="6" time="2:14.428"/>
+					<Timing driverId="russell" lap="45" position="7" time="2:12.100"/>
+					<Timing driverId="alonso" lap="45" position="8" time="2:13.544"/>
+					<Timing driverId="mick_schumacher" lap="45" position="9" time="2:12.983"/>
+					<Timing driverId="ocon" lap="45" position="10" time="2:12.915"/>
+					<Timing driverId="albon" lap="45" position="11" time="2:12.382"/>
+					<Timing driverId="stroll" lap="45" position="12" time="2:12.844"/>
+					<Timing driverId="kevin_magnussen" lap="45" position="13" time="2:13.648"/>
+					<Timing driverId="vettel" lap="45" position="14" time="2:13.895"/>
+					<Timing driverId="ricciardo" lap="45" position="15" time="2:12.671"/>
+					<Timing driverId="latifi" lap="45" position="16" time="1:41.612"/>
+					<Timing driverId="tsunoda" lap="45" position="17" time="1:35.329"/>
+					<Timing driverId="gasly" lap="45" position="18" time="1:52.962"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

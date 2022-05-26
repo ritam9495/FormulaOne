@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/5/laps/14" limit="30" offset="0" total="19">
+	<RaceTable season="2022" round="5" lap="14">
+		<Race season="2022" round="5" url="http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix">
+			<RaceName>Miami Grand Prix</RaceName>
+			<Circuit circuitId="miami" url="http://en.wikipedia.org/wiki/Miami_International_Autodrome">
+				<CircuitName>Miami International Autodrome</CircuitName>
+				<Location lat="25.9581" long="-80.2389">
+					<Locality>Miami</Locality>
+					<Country>USA</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-05-08</Date>
+			<Time>19:30:00Z</Time>
+			<LapsList>
+				<Lap number="14">
+					<Timing driverId="max_verstappen" lap="14" position="1" time="1:33.866"/>
+					<Timing driverId="leclerc" lap="14" position="2" time="1:33.867"/>
+					<Timing driverId="sainz" lap="14" position="3" time="1:34.017"/>
+					<Timing driverId="perez" lap="14" position="4" time="1:34.375"/>
+					<Timing driverId="bottas" lap="14" position="5" time="1:35.257"/>
+					<Timing driverId="hamilton" lap="14" position="6" time="1:34.665"/>
+					<Timing driverId="gasly" lap="14" position="7" time="1:35.458"/>
+					<Timing driverId="alonso" lap="14" position="8" time="1:35.408"/>
+					<Timing driverId="norris" lap="14" position="9" time="1:35.788"/>
+					<Timing driverId="russell" lap="14" position="10" time="1:35.258"/>
+					<Timing driverId="ricciardo" lap="14" position="11" time="1:36.296"/>
+					<Timing driverId="mick_schumacher" lap="14" position="12" time="1:41.306"/>
+					<Timing driverId="albon" lap="14" position="13" time="1:35.648"/>
+					<Timing driverId="ocon" lap="14" position="14" time="1:35.818"/>
+					<Timing driverId="latifi" lap="14" position="15" time="1:36.683"/>
+					<Timing driverId="stroll" lap="14" position="16" time="1:36.596"/>
+					<Timing driverId="vettel" lap="14" position="17" time="1:36.242"/>
+					<Timing driverId="kevin_magnussen" lap="14" position="18" time="1:34.761"/>
+					<Timing driverId="tsunoda" lap="14" position="19" time="1:35.801"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

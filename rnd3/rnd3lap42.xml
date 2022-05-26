@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/3/laps/42" limit="30" offset="0" total="17">
+	<RaceTable season="2022" round="3" lap="42">
+		<Race season="2022" round="3" url="http://en.wikipedia.org/wiki/2022_Australian_Grand_Prix">
+			<RaceName>Australian Grand Prix</RaceName>
+			<Circuit circuitId="albert_park" url="http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit">
+				<CircuitName>Albert Park Grand Prix Circuit</CircuitName>
+				<Location lat="-37.8497" long="144.968">
+					<Locality>Melbourne</Locality>
+					<Country>Australia</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-04-10</Date>
+			<Time>05:00:00Z</Time>
+			<LapsList>
+				<Lap number="42">
+					<Timing driverId="leclerc" lap="42" position="1" time="1:21.545"/>
+					<Timing driverId="perez" lap="42" position="2" time="1:22.189"/>
+					<Timing driverId="russell" lap="42" position="3" time="1:22.460"/>
+					<Timing driverId="hamilton" lap="42" position="4" time="1:22.049"/>
+					<Timing driverId="norris" lap="42" position="5" time="1:23.213"/>
+					<Timing driverId="ricciardo" lap="42" position="6" time="1:23.204"/>
+					<Timing driverId="albon" lap="42" position="7" time="1:23.238"/>
+					<Timing driverId="ocon" lap="42" position="8" time="1:23.231"/>
+					<Timing driverId="stroll" lap="42" position="9" time="1:23.951"/>
+					<Timing driverId="gasly" lap="42" position="10" time="1:24.056"/>
+					<Timing driverId="bottas" lap="42" position="11" time="1:23.397"/>
+					<Timing driverId="mick_schumacher" lap="42" position="12" time="1:23.392"/>
+					<Timing driverId="alonso" lap="42" position="13" time="1:23.618"/>
+					<Timing driverId="zhou" lap="42" position="14" time="1:23.723"/>
+					<Timing driverId="tsunoda" lap="42" position="15" time="1:23.596"/>
+					<Timing driverId="kevin_magnussen" lap="42" position="16" time="1:23.334"/>
+					<Timing driverId="latifi" lap="42" position="17" time="1:25.529"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

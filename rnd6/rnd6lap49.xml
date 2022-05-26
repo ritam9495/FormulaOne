@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/6/laps/49" limit="30" offset="0" total="18">
+	<RaceTable season="2022" round="6" lap="49">
+		<Race season="2022" round="6" url="http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix">
+			<RaceName>Spanish Grand Prix</RaceName>
+			<Circuit circuitId="catalunya" url="http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya">
+				<CircuitName>Circuit de Barcelona-Catalunya</CircuitName>
+				<Location lat="41.57" long="2.26111">
+					<Locality>Montmeló</Locality>
+					<Country>Spain</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-05-22</Date>
+			<Time>13:00:00Z</Time>
+			<LapsList>
+				<Lap number="49">
+					<Timing driverId="max_verstappen" lap="49" position="1" time="1:26.242"/>
+					<Timing driverId="perez" lap="49" position="2" time="1:28.557"/>
+					<Timing driverId="russell" lap="49" position="3" time="1:27.479"/>
+					<Timing driverId="bottas" lap="49" position="4" time="1:28.448"/>
+					<Timing driverId="sainz" lap="49" position="5" time="1:25.985"/>
+					<Timing driverId="ocon" lap="49" position="6" time="1:27.841"/>
+					<Timing driverId="hamilton" lap="49" position="7" time="1:43.326"/>
+					<Timing driverId="norris" lap="49" position="8" time="1:29.543"/>
+					<Timing driverId="alonso" lap="49" position="9" time="1:28.119"/>
+					<Timing driverId="tsunoda" lap="49" position="10" time="1:28.441"/>
+					<Timing driverId="mick_schumacher" lap="49" position="11" time="1:29.192"/>
+					<Timing driverId="vettel" lap="49" position="12" time="1:28.126"/>
+					<Timing driverId="ricciardo" lap="49" position="13" time="1:47.158"/>
+					<Timing driverId="gasly" lap="49" position="14" time="1:27.243"/>
+					<Timing driverId="latifi" lap="49" position="15" time="1:29.908"/>
+					<Timing driverId="kevin_magnussen" lap="49" position="16" time="1:28.765"/>
+					<Timing driverId="stroll" lap="49" position="17" time="1:29.066"/>
+					<Timing driverId="albon" lap="49" position="18" time="1:29.333"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/5/laps/39" limit="30" offset="0" total="19">
+	<RaceTable season="2022" round="5" lap="39">
+		<Race season="2022" round="5" url="http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix">
+			<RaceName>Miami Grand Prix</RaceName>
+			<Circuit circuitId="miami" url="http://en.wikipedia.org/wiki/Miami_International_Autodrome">
+				<CircuitName>Miami International Autodrome</CircuitName>
+				<Location lat="25.9581" long="-80.2389">
+					<Locality>Miami</Locality>
+					<Country>USA</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-05-08</Date>
+			<Time>19:30:00Z</Time>
+			<LapsList>
+				<Lap number="39">
+					<Timing driverId="max_verstappen" lap="39" position="1" time="1:32.415"/>
+					<Timing driverId="leclerc" lap="39" position="2" time="1:32.096"/>
+					<Timing driverId="sainz" lap="39" position="3" time="1:33.046"/>
+					<Timing driverId="perez" lap="39" position="4" time="1:33.083"/>
+					<Timing driverId="russell" lap="39" position="5" time="1:33.413"/>
+					<Timing driverId="bottas" lap="39" position="6" time="1:33.317"/>
+					<Timing driverId="hamilton" lap="39" position="7" time="1:33.276"/>
+					<Timing driverId="ocon" lap="39" position="8" time="1:34.447"/>
+					<Timing driverId="alonso" lap="39" position="9" time="1:35.083"/>
+					<Timing driverId="stroll" lap="39" position="10" time="1:34.623"/>
+					<Timing driverId="gasly" lap="39" position="11" time="1:38.470"/>
+					<Timing driverId="mick_schumacher" lap="39" position="12" time="1:33.997"/>
+					<Timing driverId="kevin_magnussen" lap="39" position="13" time="1:34.427"/>
+					<Timing driverId="norris" lap="39" position="14" time="1:34.190"/>
+					<Timing driverId="vettel" lap="39" position="15" time="1:33.596"/>
+					<Timing driverId="albon" lap="39" position="16" time="1:33.706"/>
+					<Timing driverId="ricciardo" lap="39" position="17" time="1:33.949"/>
+					<Timing driverId="tsunoda" lap="39" position="18" time="1:34.232"/>
+					<Timing driverId="latifi" lap="39" position="19" time="1:38.513"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

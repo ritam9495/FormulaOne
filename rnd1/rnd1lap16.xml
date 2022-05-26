@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/1/laps/16" limit="30" offset="0" total="20">
+	<RaceTable season="2022" round="1" lap="16">
+		<Race season="2022" round="1" url="http://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix">
+			<RaceName>Bahrain Grand Prix</RaceName>
+			<Circuit circuitId="bahrain" url="http://en.wikipedia.org/wiki/Bahrain_International_Circuit">
+				<CircuitName>Bahrain International Circuit</CircuitName>
+				<Location lat="26.0325" long="50.5106">
+					<Locality>Sakhir</Locality>
+					<Country>Bahrain</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-03-20</Date>
+			<Time>15:00:00Z</Time>
+			<LapsList>
+				<Lap number="16">
+					<Timing driverId="leclerc" lap="16" position="1" time="1:57.660"/>
+					<Timing driverId="max_verstappen" lap="16" position="2" time="1:36.905"/>
+					<Timing driverId="sainz" lap="16" position="3" time="1:37.477"/>
+					<Timing driverId="perez" lap="16" position="4" time="1:58.858"/>
+					<Timing driverId="hamilton" lap="16" position="5" time="1:38.236"/>
+					<Timing driverId="russell" lap="16" position="6" time="2:02.370"/>
+					<Timing driverId="kevin_magnussen" lap="16" position="7" time="1:37.968"/>
+					<Timing driverId="gasly" lap="16" position="8" time="1:38.705"/>
+					<Timing driverId="alonso" lap="16" position="9" time="1:40.572"/>
+					<Timing driverId="stroll" lap="16" position="10" time="1:42.592"/>
+					<Timing driverId="ocon" lap="16" position="11" time="1:40.079"/>
+					<Timing driverId="hulkenberg" lap="16" position="12" time="1:43.615"/>
+					<Timing driverId="norris" lap="16" position="13" time="1:43.031"/>
+					<Timing driverId="tsunoda" lap="16" position="14" time="2:01.989"/>
+					<Timing driverId="ricciardo" lap="16" position="15" time="1:43.515"/>
+					<Timing driverId="bottas" lap="16" position="16" time="1:40.259"/>
+					<Timing driverId="mick_schumacher" lap="16" position="17" time="1:39.406"/>
+					<Timing driverId="zhou" lap="16" position="18" time="2:01.722"/>
+					<Timing driverId="albon" lap="16" position="19" time="1:40.164"/>
+					<Timing driverId="latifi" lap="16" position="20" time="1:39.239"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

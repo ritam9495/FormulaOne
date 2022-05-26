@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/3/laps/18" limit="30" offset="0" total="19">
+	<RaceTable season="2022" round="3" lap="18">
+		<Race season="2022" round="3" url="http://en.wikipedia.org/wiki/2022_Australian_Grand_Prix">
+			<RaceName>Australian Grand Prix</RaceName>
+			<Circuit circuitId="albert_park" url="http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit">
+				<CircuitName>Albert Park Grand Prix Circuit</CircuitName>
+				<Location lat="-37.8497" long="144.968">
+					<Locality>Melbourne</Locality>
+					<Country>Australia</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-04-10</Date>
+			<Time>05:00:00Z</Time>
+			<LapsList>
+				<Lap number="18">
+					<Timing driverId="leclerc" lap="18" position="1" time="1:23.883"/>
+					<Timing driverId="perez" lap="18" position="2" time="1:24.964"/>
+					<Timing driverId="hamilton" lap="18" position="3" time="1:24.465"/>
+					<Timing driverId="russell" lap="18" position="4" time="1:24.505"/>
+					<Timing driverId="norris" lap="18" position="5" time="1:25.414"/>
+					<Timing driverId="ricciardo" lap="18" position="6" time="1:25.363"/>
+					<Timing driverId="max_verstappen" lap="18" position="7" time="1:39.466"/>
+					<Timing driverId="gasly" lap="18" position="8" time="1:25.194"/>
+					<Timing driverId="alonso" lap="18" position="9" time="1:25.065"/>
+					<Timing driverId="bottas" lap="18" position="10" time="1:24.939"/>
+					<Timing driverId="zhou" lap="18" position="11" time="1:26.118"/>
+					<Timing driverId="kevin_magnussen" lap="18" position="12" time="1:25.974"/>
+					<Timing driverId="albon" lap="18" position="13" time="1:25.499"/>
+					<Timing driverId="stroll" lap="18" position="14" time="1:25.350"/>
+					<Timing driverId="vettel" lap="18" position="15" time="1:25.367"/>
+					<Timing driverId="ocon" lap="18" position="16" time="1:30.536"/>
+					<Timing driverId="tsunoda" lap="18" position="17" time="1:40.786"/>
+					<Timing driverId="mick_schumacher" lap="18" position="18" time="1:24.347"/>
+					<Timing driverId="latifi" lap="18" position="19" time="1:25.414"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

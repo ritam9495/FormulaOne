@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/3/laps/5" limit="30" offset="0" total="19">
+	<RaceTable season="2022" round="3" lap="5">
+		<Race season="2022" round="3" url="http://en.wikipedia.org/wiki/2022_Australian_Grand_Prix">
+			<RaceName>Australian Grand Prix</RaceName>
+			<Circuit circuitId="albert_park" url="http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit">
+				<CircuitName>Albert Park Grand Prix Circuit</CircuitName>
+				<Location lat="-37.8497" long="144.968">
+					<Locality>Melbourne</Locality>
+					<Country>Australia</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-04-10</Date>
+			<Time>05:00:00Z</Time>
+			<LapsList>
+				<Lap number="5">
+					<Timing driverId="leclerc" lap="5" position="1" time="2:14.936"/>
+					<Timing driverId="max_verstappen" lap="5" position="2" time="2:13.529"/>
+					<Timing driverId="hamilton" lap="5" position="3" time="2:12.374"/>
+					<Timing driverId="perez" lap="5" position="4" time="2:13.146"/>
+					<Timing driverId="russell" lap="5" position="5" time="2:13.679"/>
+					<Timing driverId="norris" lap="5" position="6" time="2:13.615"/>
+					<Timing driverId="ricciardo" lap="5" position="7" time="2:14.811"/>
+					<Timing driverId="ocon" lap="5" position="8" time="2:15.309"/>
+					<Timing driverId="gasly" lap="5" position="9" time="2:15.616"/>
+					<Timing driverId="alonso" lap="5" position="10" time="2:16.328"/>
+					<Timing driverId="tsunoda" lap="5" position="11" time="2:16.691"/>
+					<Timing driverId="bottas" lap="5" position="12" time="2:17.071"/>
+					<Timing driverId="mick_schumacher" lap="5" position="13" time="2:17.298"/>
+					<Timing driverId="zhou" lap="5" position="14" time="2:17.704"/>
+					<Timing driverId="kevin_magnussen" lap="5" position="15" time="2:17.172"/>
+					<Timing driverId="vettel" lap="5" position="16" time="2:15.917"/>
+					<Timing driverId="latifi" lap="5" position="17" time="2:16.809"/>
+					<Timing driverId="albon" lap="5" position="18" time="2:17.043"/>
+					<Timing driverId="stroll" lap="5" position="19" time="2:04.896"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>

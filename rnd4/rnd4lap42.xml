@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/schemas/mrd-1.5.xsl"?>
+<MRData xmlns="http://ergast.com/mrd/1.5" series="f1" url="http://ergast.com/api/f1/2022/4/laps/42" limit="30" offset="0" total="18">
+	<RaceTable season="2022" round="4" lap="42">
+		<Race season="2022" round="4" url="http://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix">
+			<RaceName>Emilia Romagna Grand Prix</RaceName>
+			<Circuit circuitId="imola" url="http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari">
+				<CircuitName>Autodromo Enzo e Dino Ferrari</CircuitName>
+				<Location lat="44.3439" long="11.7167">
+					<Locality>Imola</Locality>
+					<Country>Italy</Country>
+				</Location>
+			</Circuit>
+			<Date>2022-04-24</Date>
+			<Time>13:00:00Z</Time>
+			<LapsList>
+				<Lap number="42">
+					<Timing driverId="max_verstappen" lap="42" position="1" time="1:20.224"/>
+					<Timing driverId="perez" lap="42" position="2" time="1:20.478"/>
+					<Timing driverId="leclerc" lap="42" position="3" time="1:20.747"/>
+					<Timing driverId="norris" lap="42" position="4" time="1:21.729"/>
+					<Timing driverId="russell" lap="42" position="5" time="1:21.575"/>
+					<Timing driverId="bottas" lap="42" position="6" time="1:20.915"/>
+					<Timing driverId="vettel" lap="42" position="7" time="1:21.784"/>
+					<Timing driverId="kevin_magnussen" lap="42" position="8" time="1:21.743"/>
+					<Timing driverId="tsunoda" lap="42" position="9" time="1:21.552"/>
+					<Timing driverId="stroll" lap="42" position="10" time="1:23.895"/>
+					<Timing driverId="ocon" lap="42" position="11" time="1:21.956"/>
+					<Timing driverId="albon" lap="42" position="12" time="1:22.054"/>
+					<Timing driverId="gasly" lap="42" position="13" time="1:22.119"/>
+					<Timing driverId="hamilton" lap="42" position="14" time="1:22.188"/>
+					<Timing driverId="zhou" lap="42" position="15" time="1:21.661"/>
+					<Timing driverId="latifi" lap="42" position="16" time="1:22.750"/>
+					<Timing driverId="mick_schumacher" lap="42" position="17" time="1:21.502"/>
+					<Timing driverId="ricciardo" lap="42" position="18" time="1:24.388"/>
+				</Lap>
+			</LapsList>
+		</Race>
+	</RaceTable>
+</MRData>
